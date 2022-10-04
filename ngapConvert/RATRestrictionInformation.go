@@ -3,7 +3,7 @@ package ngapConvert
 import (
 	"github.com/free5gc/aper"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/free5gc/openapi/models"
+	"github.com/nycu-ucr/openapi/models"
 )
 
 // TS 38.413 9.3.1.85

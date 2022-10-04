@@ -6,7 +6,7 @@ import (
 
 	"github.com/free5gc/ngap/logger"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/free5gc/openapi/models"
+	"github.com/nycu-ucr/openapi/models"
 )
 
 func PlmnIdToModels(ngapPlmnId ngapType.PLMNIdentity) (modelsPlmnid models.PlmnId) {
