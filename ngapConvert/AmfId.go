@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 
 	"github.com/free5gc/aper"
-	"github.com/free5gc/ngap/logger"
+	"github.com/nycu-ucr/ngap/logger"
 )
 
 func AmfIdToNgap(amfId string) (regionId, setId, ptrId aper.BitString) {

@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 
 	"github.com/free5gc/aper"
-	"github.com/free5gc/ngap/logger"
+	"github.com/nycu-ucr/ngap/logger"
 )
 
 /*

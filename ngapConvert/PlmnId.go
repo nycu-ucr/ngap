@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/free5gc/ngap/logger"
-	"github.com/free5gc/ngap/ngapType"
+	"github.com/nycu-ucr/ngap/logger"
+	"github.com/nycu-ucr/ngap/ngapType"
 	"github.com/nycu-ucr/openapi/models"
 )
 
