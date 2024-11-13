@@ -27,7 +27,9 @@ type ProtocolIESingleContainerDRBStatusDLExtIEs struct{}
 type ProtocolIESingleContainerDRBStatusULExtIEs struct{}
 
 // Open type declare
-type ProtocolIESingleContainerGlobalRANNodeIDExtIEs struct{}
+type ProtocolIESingleContainerGlobalRANNodeIDExtIEs struct {
+	GlobalRANNodeIDExtIEs *GlobalRANNodeIDExtIEs
+}
 
 // Open type declare
 type ProtocolIESingleContainerGNBIDExtIEs struct{}
@@ -39,10 +41,31 @@ type ProtocolIESingleContainerLastVisitedCellInformationExtIEs struct{}
 type ProtocolIESingleContainerN3IWFIDExtIEs struct{}
 
 // Open type declare
+type ProtocolIESingleContainerTNGFIDExtIEs struct{}
+
+// Open type declare
+type ProtocolIESingleContainerTWIFIDExtIEs struct{}
+
+// Open type declare
+type ProtocolIESingleContainerWAGFIDExtIEs struct{}
+
+// Open type declare
 type ProtocolIESingleContainerNgENBIDExtIEs struct{}
 
 // Open type declare
 type ProtocolIESingleContainerNGRANCGIExtIEs struct{}
+
+// Open type declare
+type ProtocolIESingleContainerNPNAccessInformationExtIEs struct{}
+
+// Open type declare
+type ProtocolIESingleContainerNPNMobilityInformationExtIEs struct{}
+
+// Open type declare
+type ProtocolIESingleContainerNPNPagingAssistanceInformationExtIEs struct{}
+
+// Open type declare
+type ProtocolIESingleContainerNPNSupportExtIEs struct{}
 
 // Open type declare
 type ProtocolIESingleContainerOverloadResponseExtIEs struct{}
@@ -75,7 +98,12 @@ type ProtocolIESingleContainerUEPagingIdentityExtIEs struct{}
 type ProtocolIESingleContainerUPTransportLayerInformationExtIEs struct{}
 
 // Open type declare
-type ProtocolIESingleContainerUserLocationInformationExtIEs struct{}
+type ProtocolIESingleContainerUserLocationInformationExtIEs struct {
+	UserLocationInformationExtIEs *UserLocationInformationExtIEs
+}
+
+// Open type declare
+type ProtocolIESingleContainerUserLocationInformationWAGFExtIEs struct{}
 
 // Open type declare
 type ProtocolIESingleContainerWarningAreaListExtIEs struct{}

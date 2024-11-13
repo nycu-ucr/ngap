@@ -165,4 +165,18 @@ const (
 	ProtocolIEIDSecurityResult                             int64 = 156
 	ProtocolIEIDENDCSONConfigurationTransferDL             int64 = 157
 	ProtocolIEIDENDCSONConfigurationTransferUL             int64 = 158
+	ProtocolIEIDSelectedPLMNIdentity                       int64 = 174
+	ProtocolIEIDGlobalTNGFID                               int64 = 240
+	ProtocolIEIDGlobalTWIFID                               int64 = 241
+	ProtocolIEIDGlobalWAGFID                               int64 = 242
+	ProtocolIEIDUserLocationInformationWAGF                int64 = 243
+	ProtocolIEIDUserLocationInformationTNGF                int64 = 244
+	ProtocolIEIDUserLocationInformationTWIF                int64 = 248
+	ProtocolIEIDNPNSupport                                 int64 = 258
+	ProtocolIEIDNPNAccessInformation                       int64 = 259
+	ProtocolIEIDNPNPagingAssistanceInformation             int64 = 260
+	ProtocolIEIDNPNMobilityInformation                     int64 = 261
+	ProtocolIEIDNID                                        int64 = 263
+	ProtocolIEIDExtendedSliceSupportList                   int64 = 270
+	ProtocolIEIDExtendedTAISliceSupportList                int64 = 271
 )
